@@ -1,0 +1,7 @@
+baseurl = "http://eliquious.github.io/"
+languageCode = "en-us"
+title = "Squirrels"
+theme = "detox2"
+
+[params]
+    description = "Chasing them one day at a time"
