@@ -2,24 +2,13 @@
 date = "2016-01-16T00:21:42-06:00"
 draft = false
 title = "Writing a database in Go: Part 1"
-
+tags = [ "Go", "Databases" ]
+description = "The data model and query language"
 +++
 
-Databases are a dime a dozen these days. So why in the world would I write another one? Well, mainly for fun, but also for specialization. Building a database which specializes in one thing could reap huge benefits such as performance, data model, or even operations. But obviously it depends on what it is you are building...
+Databases are a dime a dozen these days. So why in the world would I write another one? Well, mainly for fun, but also for specialization. Building a database which specializes in one thing could reap huge benefits such as performance, data model, or even operations.
 
-##### In this series...
-
-1. [Data model and query language](http://eliquious.github.io/post/writing-a-database-part-1/ "Part 1")
-2. Lexing, Parsing and the AST
-3. Query Execution
-4. Database server
-5. Database client
-6. Benchmarks
-7. Performance enhancements
-
-So what are we building? We're going to build another key-value database. However, this one is going to be geared specifically for range scans and is called [PrefixDB][1]. So where should we start? We should start by defining the data model and then the query language.
-
-</br>
+So what kind of database are we building? We're going to build yet another key-value database. However, this one is going to be geared specifically for range scans and is called [PrefixDB][1]. So where should we start? We should start by defining the data model and then the query language.
 
 ### Defining the data model
 
