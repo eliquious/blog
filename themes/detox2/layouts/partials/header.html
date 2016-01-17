@@ -1,6 +1,14 @@
     <header id="site-header">
+        <div>
+            <img class="avatar" src="https://s.gravatar.com/avatar/bc02d63efa6e4af9c2f1a217d15d8419?s=80" alt="avatar" />
+        </div>
         <div class="container">
             <a href="{{ .Site.BaseURL }}" alt="{{ .Site.Title }}"><h1 class="blog-title heading">{{ .Site.Title }}</h1></a>
             <p class="blog-description">{{ .Site.Params.description }}</p>
+        </div>
+        <div>
+            <a class="icon-github" href="http://github.com/eliquious">
+                <i class="fa fa-github"></i>
+            </a>
         </div>
     </header>

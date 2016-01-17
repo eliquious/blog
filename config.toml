@@ -5,3 +5,5 @@ theme = "detox2"
 
 [params]
     description = "Chasing them one day at a time"
+    twitter_name = "eliquious"
+    google_analytics = "true"
