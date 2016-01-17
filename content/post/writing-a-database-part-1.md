@@ -78,9 +78,7 @@ Even though this limitation exists, you can sill query for values using all the 
 SELECT FROM users.settings WHERE user = "eliquious" AND setting = "email";
 ```
 
-The query above would return the email for the user `eliquious`.
-
-Additionally, the efficient range scans would allow for queries like this:
+The query above would return the email for the user `eliquious`. Additionally, the efficient range scans would allow for queries like this:
 
 ```
 SELECT FROM users.messages WHERE user = "eliquious" AND
@@ -121,7 +119,7 @@ DROP KEYSPACE users;
 
 Obviously, this is just the start. Next time we'll get into code.
 
-But with only 5 query statements we have quite a bit of functionality. Statements that could be added in the future are `DESCRIBE` (for describing keyspaces) and `BATCH` (for large inserts).
+Even with only 5 query statements we have quite a bit of functionality. Statements that could be added in the future are `DESCRIBE` (for describing keyspaces) and `BATCH` (for large inserts).
 
 There are also a few extra clauses that may be beneficial in the short term. Such as `LIMIT` and possibly `ORDER BY`, although `ORDER BY` might be limited as well for efficiency.
 
