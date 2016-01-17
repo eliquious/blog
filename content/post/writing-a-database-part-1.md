@@ -1,6 +1,5 @@
 +++
 date = "2016-01-15T00:21:42-06:00"
-draft = false
 title = "Writing a database in Go: Part 1"
 tags = [ "Go", "Databases" ]
 description = "The data model and query language"

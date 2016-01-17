@@ -2,6 +2,7 @@
 date = "2016-01-16T20:02:44-06:00"
 title = "Writing a database in Go: Part 2"
 description = "Lexing"
+tags = [ "Go", "Databases", "Lexical analysis" ]
 +++
 
 </br>
