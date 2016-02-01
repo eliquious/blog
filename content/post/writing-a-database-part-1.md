@@ -5,6 +5,8 @@ tags = [ "Go", "Databases" ]
 description = "The data model and query language"
 +++
 
+<br/>
+
 Databases are a dime a dozen these days. So why in the world would I write another one? Well, mainly for fun, but also for specialization. Building a database which specializes in one thing could reap huge benefits such as performance, data model, or even operations.
 
 So what kind of database are we building? We're going to build yet another key-value database. However, this one is going to be geared specifically for range scans and is called [PrefixDB][1]. So where should we start? We should start by defining the data model and then the query language.
