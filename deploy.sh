@@ -3,10 +3,11 @@
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
-hugo -t detox2 # if using a theme, replace by `hugo -t <yourtheme>`
+hugo -t detox2 -d ../eliquious.github.io
 
 # Go To Public folder
-cd public
+cd ../eliquious.github.io
+
 # Add changes to git.
 git add .
 
@@ -21,5 +22,4 @@ git commit -m "$msg"
 git push origin master
 
 # Come Back
-cd ..
-
+cd ../blog
